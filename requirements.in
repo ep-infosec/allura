@@ -1,0 +1,61 @@
+ActivityStream
+beautifulsoup4
+Beaker
+cchardet
+colander
+cryptography
+decorator
+EasyWidgets
+# https://github.com/carpedm20/emoji/issues/191
+emoji!=1.6.0
+feedgenerator
+feedparser
+FormEncode
+GitPython
+html5lib
+Jinja2
+Markdown==3.3.7
+markdown-checklist
+MarkupSafe!=2.1.1
+Ming
+oauthlib
+paginate
+Paste
+PasteDeploy<3
+PasteScript
+Pillow
+# profanity filter for feedback
+profanityfilter
+Pygments
+pymongo
+Pypeline[creole,markdown,textile,rst]
+pysolr
+python-dateutil
+python-magic
+python-oembed
+pytz
+qrcode
+regex-as-re-globally
+requests
+requests-oauthlib
+# for taskd proc name switching
+setproctitle
+six
+TimerMiddleware
+TurboGears2==2.3.12
+WebHelpers2
+WebOb
+werkzeug
+wrapt
+# testing
+mock
+pyflakes
+#pylint -- disabled due to [#8346]  (also requires diff versions on py2 vs 3, including transitive deps which gets tricky with pip-compile)
+testfixtures
+WebTest
+pytest
+pytest-xdist
+pytest-sugar
+
+# deployment
+gunicorn
